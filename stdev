@@ -1,0 +1,3 @@
+# Script to initialize two terminals with rvm-shell
+
+sudo gnome-terminal --geometry=150x50 --tab --title="Server" -e "bash -c \"cd /devel/off/ruby/rails/aodb && rvm-shell; rails s;\"" --tab --title="Redcar" -e "bash -c \"cd /devel/off/ruby/rails/aodb && rvm-shell;\"" --tab --title="Others" -e "bash -c \"google-chrome www.gmail.com;\""
